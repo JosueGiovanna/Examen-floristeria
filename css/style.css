@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap');
+body{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+}
+:root {
+	--verde:#0f9e5c;
+	--fondopanel: rgba(84,37,96,0.94);
+	--iconmenu: #A19C1F;
+	--textmenu: #fff;
+	--bgmenu: rgba(193,78,204,0.74);
+	--f7-list-border-color: none;
+	--verde: #C14ECC;
+	--gris: #179C90;
+	--carbon: #4E8F8C;
+	
+}
+.panel-left{
+	background-color:var(--fondopanel);
+	color: #fff;
+
+
+}
+.letra-verde {
+	color: var(--verde);
+}
+.letra-blanco {
+	color: #fff;
+}
+
+.list-menu .item-media span{
+	color: var(--iconmenu);
+}
+.list-menu item-inner{
+	color: var(--textmenu);
+}
+.list-menu {
+	background-color: var(--bgmenu) !important;
+	font-size: 14px;
+}
+.list-menu .item-inner::before{
+	color: rgba(255,255,255,0.50) !important;
+}
+.list-menu .item-inner::after{
+	background-color: transparent !important;
+}
+h1,h2,h3,h4{
+	margin: 2px 0;
+}
+.saludo h2{
+	color: var(--verde);
+}
+.saludo h3{
+	color: var(--verde);
+	font-weight: 400;
+}
+.block-title {
+	color: #D4D4D4;
+	font-weight: 600;
+}
+.img-fluid{
+	max-width: 100%;
+}
+
+.card-food .card-header{
+	padding: 0;
+}
+.card-food .card-header img{
+	border-radius: 5px;
+}
+.card-food .card-content{
+	background-color: var(--verde);
+	color: #fff;
+	padding: 10px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	font-size: 16px;
+}
+.card-food .card-content article:last-child{
+	justify-content: flex-end;
+	display: flex;
+	font-size: 13px;
+}
+.card-food .card-content i{
+	font-size: 20px;
+}
+.categorias .card {
+	background-color: var(--verde);
+	color: #fff;
+	height: 105px;
+	width: 110px;
+	margin: 10px auto;
+	padding: 10px 25px;
+}
+.categorias .card-content img{
+	width: 40px;
+	
+}
+
+.derecha {
+	text-align: right;
+}
+
+.categorias h3{
+	margin-top: -12%;
+	font-size: 16px;
+	font-weight: 600;
+}
+
+.img-perfil {
+	border-radius: 100%;
+}
+
+.bg-verde {
+	background-color: var(--verde);
+	color: #fff;
+	padding: 45px 0;
+}
+
+.bg-verde .block{
+	margin-top: 0;
+}
+.perfil-contador .card-content{
+	padding: 20px;
+	text-align: center;
+	
+}
+.perfil-contador .card{
+	margin-top: -25%;
+	box-shadow: 0px 0px 10px 0px #000;
+}
+
+.perfil-contador h4{
+	font-size: 24px;
+}
+.list-perfil .item-header {
+	color: rgba(221,221,221,1.00);
+}
+.list-perfil .item-title {
+	color: rgba(255,255,255,1.00);
+	font-weight: 500;
+}
+
+.bg-carnes {
+	background-image: url("../img/panel-1.jpg");
+	background-size: cover;
+	background-position: top center;
+	padding: 20% 0 1%;
+}
+
+
+.bg-carnes h2{
+	color: #fff;
+	text-align: center;
+	font-size: 26px;
+	font-weight: 700;
+}
+
+.bg-carnes .block{
+	margin-top: 0;
+}
+
+.lista-productos .item-media img{
+	width: 80px;
+	
+}
+.lista-productos .item-text {
+	font-size: 8px;
+}
+.lista-productos .button {
+	font-size: 10px;
+	padding: 0px !important;
+}
+
+.info-producto .popup-close{
+	
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+
+.info-producto .titulo {
+	font-size: 22px;
+}
+
+.info-producto .info{
+	color: #aaa;
+}
+
+.info-producto .precio{
+	color: var(--verde);
+	font-size: 16px;
+}
+
+#login .page-content {
+	background-color: #161616;
+
+}
+#login .page {
+	background-color: #0E0E0E;
+
+}
+
+.sliders .titulo {
+	font-size: 16px;
+	color: #fff;
+	margin: 0 5px;
+}
+
+.sliders .card-header {
+	background-color: #D9485E;
+}
+
+.menu-lol {
+	margin: 20px 0 10px;
+	color: rgba(236,203,247,1.00);
+	font-weight: 700;
+}
